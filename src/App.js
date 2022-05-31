@@ -7,6 +7,7 @@ const App = () =>
 return (
     <div className="App">
         <PostForm />
+        <h2 className='subtitle'>Posts</h2>
         <div className='App__postslist'>
             <BlogPost title="Hello world!" content="First Post hehe!" author="Toto"/>
             <BlogPost title="Wassup yall" content="Lorem 4 life" author="Gilbert"/>
