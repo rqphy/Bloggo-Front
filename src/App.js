@@ -4,12 +4,18 @@ import BlogPost from './Components/BlogPost/BlogPost'
 
 const App = () =>
 {
-  return (
+return (
     <div className="App">
-      <PostForm />
-      <BlogPost />
+        <PostForm />
+        <div className='App__postslist'>
+            <BlogPost />
+            <BlogPost />
+            <BlogPost />
+            <BlogPost />
+            <BlogPost />
+        </div>
     </div>
-  )
+)
 }
 
 export default App

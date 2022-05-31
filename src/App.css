@@ -1,1 +1,12 @@
-@import './Common/reset.css'
+@import './Common/reset.css';
+
+.App__postslist
+{
+    display: grid;
+    align-items: center;
+    align-self: center;
+
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
