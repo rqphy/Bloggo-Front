@@ -1,12 +1,12 @@
 import './BlogPost.css'
 
-const BlogPost = () =>
+const BlogPost = ({ title, author, content }) =>
 {
     return (
         <article className="BlogPost">
-            <p className='BlogPost__title'>Hello World</p>
-            <span className='BlogPost__author'>by: Toto</span>
-            <p className='BlogPost__content'>First Post !</p>
+            <p className='BlogPost__title'>{ title }</p>
+            <span className='BlogPost__author'>{ author }</span>
+            <p className='BlogPost__content'>{ content }</p>
         </article>
     )
 }

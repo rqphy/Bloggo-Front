@@ -8,11 +8,10 @@ return (
     <div className="App">
         <PostForm />
         <div className='App__postslist'>
-            <BlogPost />
-            <BlogPost />
-            <BlogPost />
-            <BlogPost />
-            <BlogPost />
+            <BlogPost title="Hello world!" content="First Post hehe!" author="Toto"/>
+            <BlogPost title="Wassup yall" content="Lorem 4 life" author="Gilbert"/>
+            <BlogPost title="How to make a blog with react" content="No idea just tryin" author="YellowS"/>
+            <BlogPost title="Testtestset" content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s" author="Vroom"/>
         </div>
     </div>
 )
