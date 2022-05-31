@@ -1,5 +1,22 @@
-.PostForm
+.PostForm form
 {
-    height: 100px;
-    background-color: tomato;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
+
+.PostForm input, .PostForm textarea
+{
+    height: 30px;
+    width: 100%;
+    width: 300px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.PostForm textarea
+{
+    height: 60px;
+}
+
