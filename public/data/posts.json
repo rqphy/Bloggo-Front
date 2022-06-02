@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Hello Dear World",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "author": "Toto"
+    },
+    {
+        "title": "Manatees",
+        "content": "Manatee adults have no incisor or canine teeth, just a set of cheek teeth, which are not clearly differentiated into molars and premolars. These teeth are repeatedly replaced throughout life, with new teeth growing at the rear as older teeth fall out from farther forward in the mouth, somewhat as elephants' teeth do.",
+        "author": "NaturalG"
+    },
+    {
+        "title": "History of pizza",
+        "content": "The history of pizza begins in antiquity, as various ancient cultures produced basic flatbreads with several toppings. A precursor of pizza was probably the focaccia, a flatbread known to the Romans as panis focacius, to which toppings were then added.",
+        "author": "Miguel"
+    },
+    {
+        "title": "Roland",
+        "content": "The first edition took place in 1891 and, until 1924, the tournament was reserved only for French tennis players, or for the members of a French tennis club. Since 1925, the tournament has been open to tennis players from all over the world.",
+        "author": "Garros"
+    },
+    {
+        "title": "The best team ever",
+        "content": "The Warriors began the season with an unbelievable 24-game winning streak. Led by Stephen Curry and Klay Thompson, Golden State scored 100-plus points in every game during this streak and excelled with an undefeated target on their back. The team finally lost on Dec. 12 to the Milwaukee Bucks, 108-95. The Warriors’ 24-0 start shattered the previous NBA record for undefeated start to a season, a 15-0 mark the Houston Rockets (1993-94) and Washington Capitols (1948-49) both shared.",
+        "author": "Steph Curry"
+    },
+    {
+        "title": "The Crown",
+        "content": "Elizabeth II is Queen of the United Kingdom and 14 other Commonwealth realms. Elizabeth was born in Mayfair, London, as the first child of the Duke and Duchess of York. Her father acceded to the throne in 1936 upon the abdication of his brother, King Edward VIII, making Elizabeth the heir presumptive.",
+        "author": "Elizabeth"
+    }
+]

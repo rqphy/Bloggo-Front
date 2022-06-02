@@ -1,21 +1,41 @@
 import './App.css'
 import PostForm from './Components/PostForm/PostForm'
 import BlogPost from './Components/BlogPost/BlogPost'
+import { useEffect, useState } from 'react'
+
 
 const App = () =>
 {
-return (
-    <div className="App">
-        <PostForm />
-        <h2 className='subtitle'>Posts</h2>
-        <div className='App__postslist'>
-            <BlogPost title="Hello world!" content="First Post hehe!" author="Toto"/>
-            <BlogPost title="Wassup yall" content="Lorem 4 life" author="Gilbert"/>
-            <BlogPost title="How to make a blog with react" content="No idea just tryin" author="YellowS"/>
-            <BlogPost title="Testtestset" content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s" author="Vroom"/>
+    const [fetchedData, setFetchedData] = useState([])
+
+    useEffect(() =>
+    {
+        fetch('/data/posts.json',{
+                headers : { 
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                }
+            })
+            .then(res => res.json())
+            .then(data => 
+            {
+                setFetchedData(data)
+            })
+    }, [])
+
+    return (
+        <div className="App">
+            <PostForm />
+            <h2 className='subtitle'>Posts</h2>
+            <div className='App__postslist'>
+                {
+                    fetchedData.map((data, index) => 
+                        <BlogPost key={index} title={data.title} content={data.content} author={data.author}/>
+                    )
+                }
+            </div>
         </div>
-    </div>
-)
+    )
 }
 
 export default App
